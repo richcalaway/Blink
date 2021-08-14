@@ -1,0 +1,12 @@
+{
+  "SchemaVersion": 1,
+  "Name": "Blink",
+  "ComponentId": "ec7d7152-86b4-4c37-a971-8c4999bd22b4",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ "$TEMPLATE_LED" ],
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
